@@ -1,11 +1,13 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
-
+.weather-app {
+  background-color: #c5e4fa;
+}
 h1 {
   color: #878787;
   font-size: 24px;
-  font-weight: 100;
+  font-weight: 550;
   line-height: 28px;
   margin-bottom: 0;
 }
@@ -47,8 +49,8 @@ li:first-letter {
 
 .weather-temperature img {
   margin-right: 5px;
-  height: 64px;
-  width: 64px;
+  height: 70px;
+  width: 70px;
 }
 
 .weather-temperature strong {
@@ -79,11 +81,13 @@ li:first-letter {
   color: #000;
 }
 .weather-forecast-date {
-  font-size: 16px;
-  opacity: 0.5;
+  font-size: 17px;
+  opacity: 0.6;
 }
-.weather-forecast-temperature {
+.weather-forecast-temperature-max {
+  font-size: 18px;
 }
 .weather-forecast-temperature-min {
+  font-size: 18px;
   opacity: 0.5;
 }
